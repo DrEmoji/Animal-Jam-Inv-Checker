@@ -1,0 +1,7 @@
+{
+  "name": "my-app",
+  "bin": "index.js",
+  "scripts": {},
+  "dependencies": {},
+  "type": "module"
+}
