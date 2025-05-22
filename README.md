@@ -1,7 +1,8 @@
-Animal Jam Clothing Inventory Checker
-This tool is not proxied.
+# Animal Jam Clothing Inventory Checker
 
-🔹 Colour Codes:
-🔵 Blue – Special
-🟡 Yellow – Members Only
-⚪ White – Others
+> **Note:** This isn't proxied.
+### 🎨 Colour Codes
+
+- 🔵 **Blue** – Special  
+- 🟡 **Yellow** – Members Only  
+- ⚪ **White** – Others
