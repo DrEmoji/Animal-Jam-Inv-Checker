@@ -52,7 +52,7 @@ let clothing;
         if (msg.includes("il") && nextpacket) {
             nextpacket = false;
             const splits = msg.split("%");
-            for (let i = 6; i < msg.split("%").length; i += 5) {
+            for (let i = 6; i < splits.length; i += 5) {
                 if (i > 11) {
                     const id = splits[i];
                     if (clothing.hasOwnProperty(id)) {
