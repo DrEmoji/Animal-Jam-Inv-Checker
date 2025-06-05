@@ -58,10 +58,11 @@ let clothing;
                     if (clothing.hasOwnProperty(id)) {
                         const item = clothing[id]
                         const name = item["name"];
-                        if (item["membersOnly"] == "1") {
-                            console.log(yellow(name));
-                        } else if (CheckClothWorth(name)) {
+                        if (CheckClothWorth(name)) {
                             console.log(blue(name));
+                        }
+                        else if (item["membersOnly"] == "1") {
+                            console.log(yellow(name));
                         } else {
                             console.log(name);
                         }
