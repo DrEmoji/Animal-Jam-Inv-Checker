@@ -1,4 +1,4 @@
-# (PoC) Animal Jam Clothing Inventory Checker
+# Animal Jam Clothing Inventory Checker (PoC)
 
 > **Note:** This isn't proxied.
 ### 🎨 Colour Codes
