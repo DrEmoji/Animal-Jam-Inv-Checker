@@ -1,6 +1,6 @@
 # 🐾 Animal Jam Account Scraper (PoC)
 
-> ⚠️ **Disclaimer:** This is a **proof of concept**. The code is basic, unoptimized, and built for experimental use only. It does **not** use any proxy rotation — all requests are sent directly from your IP.
+> ⚠️ **Disclaimer:** This is a **proof of concept**. The code is basic, unoptimized, and built for experimental use only. It does **not** use any proxies — all requests are sent directly from your IP.
 
 ### 🧰 Features
 - ✅ **Login Check** – Verifies account credentials.
