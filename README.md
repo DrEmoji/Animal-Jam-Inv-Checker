@@ -18,3 +18,7 @@ Results are dumped into `.txt` files inside a folder named after the screen name
 - **SPECIAL** – Items matched from a custom filter list (`utils.js`)
 - **MEMBER** – Members-only items
 - **REGULAR** – Common or general items available to all users
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).  
+You’re welcome to use, modify, and share it — just please provide credit.
