@@ -1,14 +1,20 @@
 # 🐾 Animal Jam Account Scraper (PoC)
 
-> **Note:** This is a proof of concept and does **not** use any proxies.
+> ⚠️ **Disclaimer:** This is a **proof of concept**. The code is basic, unoptimized, and built for experimental use only. It does **not** use any proxy rotation — all requests are sent directly from your IP.
 
 ### 🧰 Features
-- ✅ **Login Check**
-- 🎒 **Inventory Checker**
-- 👥 **Buddy List Extractor**
-- 🏡 **Den Items Viewer**
+- ✅ **Login Check** – Verifies account credentials.
+- 🎒 **Inventory Checker** – Extracts the account’s clothing items.
+- 👥 **Buddy List Extractor** – Dumps the full buddy list.
+- 🏡 **Den Items Viewer** – Lists all den items on the account.
 
-### 📦 Clothing Inventory Categories
-- **SPECIAL** – Item filter from a custom list (see `utils.js`)
+### 📁 Output
+Results are dumped into `.txt` files inside a folder named after the screen name. These include:
+- `clothing.txt`
+- `buddies.txt`
+- `den_items.txt`
+
+### 📦 Clothing Inventory Tags
+- **SPECIAL** – Items matched from a custom filter list (`utils.js`)
 - **MEMBER** – Members-only items
-- **REGULAR** – Common or other items available to all users
+- **REGULAR** – Common or general items available to all users
