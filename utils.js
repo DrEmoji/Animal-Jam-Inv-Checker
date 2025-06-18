@@ -9,6 +9,7 @@ const clothworth = [
   "Magenta",
   "Headdress",
   "Tiki",
+  "Spiked Wristband",
   "Phantom Beanie"
 ];
 
@@ -20,10 +21,8 @@ async function askQuestion(prompt) {
 }
 
 function CheckClothWorth(name) {
-  if (typeof name !== 'string') {
-    return false;
-  }
-
+  if (typeof name !== 'string')  return false;
+  
   for (const cloth of clothworth) {
     if (name.includes(cloth)) {
       return true;
