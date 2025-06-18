@@ -8,7 +8,7 @@
 - 👥 **Buddy List Extractor**
 - 🏡 **Den Items Viewer**
 
-### 🎨 Colour Codes for Inventory
-- 🔵 **Blue** – Rare / Special Items  
-- 🟡 **Yellow** – Members Only Items  
-- ⚪ **White** – Common / Other Items
+### 📦 Inventory Categories
+- **SPECIAL** – Items from a custom list (see `utils.js`)
+- **MEMBER** – Members-only items
+- **REGULAR** – Common or other items available to all users
