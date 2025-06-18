@@ -9,6 +9,6 @@
 - 🏡 **Den Items Viewer**
 
 ### 📦 Inventory Categories
-- **SPECIAL** – Items from a custom list (see `utils.js`)
+- **SPECIAL** – Item filter from a custom list (see `utils.js`)
 - **MEMBER** – Members-only items
 - **REGULAR** – Common or other items available to all users
